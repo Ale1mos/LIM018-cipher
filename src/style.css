@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center
+}
+#w{
+    position: absolute;
+    width: 256px;
+    height: 64px;
+    left: 536px;
+    top: 279px;
+}
+#submit{
+    position: absolute;
+    width: 50x;
+    height: 50px;
+    float: left;
+}
+#banner{
+    position: absolute;
+    width: 1440px;
+    height: 551px;
+    left: 0px;
+    top: 473px;
+}

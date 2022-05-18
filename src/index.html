@@ -7,7 +7,29 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <div id="w">
+        <h1>Hello world!</h1><br><br>
+        <input type="email" placeholder="Ingresa tu usuario" required=""><br><br>
+        <input type="email" placeholder="Ingresa tu contraseña" required="">
+        <img id="submit" src="../images/flecha.png" alt="Es un botón de enviar">
+      </div>
+    </div>
+    <img id="banner" src="../images/portada_1.png" alt="">
+    <div>
+      <div>
+        <label for="message">Ingresa tu mensaje:</label>
+        <input type="text" id="message" required="">
+      </div>
+      <div>
+        <label for="number">Número de desplazamiento:</label>
+        <input type="text" id="number" required="">
+      </div>
+      <div>
+        <input type="submit" id="ci" value="CIFRAR">
+      </div>
+      <div>
+        <input type="submit" id="de" value="DESCIFRAR">
+      </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
