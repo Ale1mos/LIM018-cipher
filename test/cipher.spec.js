@@ -15,7 +15,9 @@ describe('cipher', () => {
   describe('cipher.encode', () => {
 
     it('should be a function', () => {
+      //expect(typeof cipher.encode).toBe('function');
       expect(typeof cipher.encode).toBe('function');
+      
     });
 
     it('should throw TypeError when invoked with wrong argument types', () => {

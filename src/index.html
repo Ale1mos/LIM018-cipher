@@ -5,17 +5,23 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
+  <body class="contenedor">
+  <div id="root">
+    <!--<div id="root">-->
       <div id="w">
-        <h1>Hello world!</h1><br><br>
-        <input type="email" placeholder="Ingresa tu usuario" required=""><br><br>
-        <input type="email" placeholder="Ingresa tu contraseña" required="">
+        <h1>Bienvenido al Cifrado Cesar</h1><br><br>
+        <input type="text" id="input1" placeholder="Ingresa tu usuario" required=""><br><br>
+        <input type="text" id="input2" placeholder="Ingresa tu contraseña" required="">
         <img id="submit" src="../images/flecha.png" alt="Es un botón de enviar">
+          <div>
+            <img id="banner" src="../images/img.png" alt="">
+          </div>
       </div>
-    </div>
-    <img id="banner" src="../images/portada_1.png" alt="">
-    <div>
+    <!--</div>-->
+    
+    
+    <div id="center" >
+      <h1>Bienvenido,<span id="user"></span></h1>
       <div>
         <label for="message">Ingresa tu mensaje:</label>
         <input type="text" id="message" required="">
@@ -31,6 +37,8 @@
         <input type="submit" id="de" value="DESCIFRAR">
       </div>
     </div>
+  </div>
+  
     <script src="index.js" type="module"></script>
   </body>
 </html>
