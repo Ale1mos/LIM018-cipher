@@ -25,14 +25,16 @@ body {
     background-image: "../images/img.png";
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid green;
     
 
 }
 #submit{
-    position: absolute;
+    display: flex;
     width: 50x;
     height: 50px;
     float: left;
+    cursor: pointer;
 }
 #banner{
     /*position: absolute;*/
@@ -59,6 +61,62 @@ body {
     position: absolute;
     width: 344px;
     height: 84px;
-    left: 548px;
-    top: 270px;
+    left: 200px;
+    top: 170px;
+    /*display: flex;*/
+    flex-direction: column;
+    /*align-items: center;*/
+    color: black;
+    /*height: 80vh;
+    width: 100vw;*/
+    height: 40px;
+    width: 40vw;
+    padding-left: 50px;
+}
+#title2{
+    border: solid blue;
+    margin-top: 5px;
+    margin-bottom: 120px;
+    /*align-items: center;*/
+    margin-left: 300px;
+
+}
+#letter{
+    border: solid blue;
+    margin-bottom: 40px;
+}
+#number{
+    border: solid blue;
+    margin-bottom: 40px;
+}
+#a{
+    display: inline-block;
+    margin: 50px;
+    border: solid blue;
+    margin-bottom: 40px;
+    margin-left: 300px;
+}
+#b{
+    display: inline-block;
+    margin: 50px;
+    border: solid blue;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    
+
+}
+#ci{
+    cursor: pointer;
+    /*display: inline-block;
+    margin: 50px;
+    border: solid blue;
+    margin-bottom: 40px;
+    margin-left: 100px;*/
+}
+#de{
+    cursor: pointer;
+    /*display: inline-block;
+    margin: 50px;
+    border: solid blue;
+    margin-bottom: 40px;*/
 }

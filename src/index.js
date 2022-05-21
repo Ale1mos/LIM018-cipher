@@ -11,6 +11,10 @@ var input2 = document.getElementById("input2")
 var welcome = document.getElementById("w")
 var center = document.getElementById("center")
 var user = document.getElementById("user")
+var ci = document.getElementById("ci")
+var de = document.getElementById("de")
+var cifrada = document.getElementById("cifrada")
+var descifrada = document.getElementById("descifrada")
 
 
 center.style.display = "none"
@@ -28,6 +32,19 @@ submit.addEventListener("click", function(){
         center.style.display = "block"
         user.textContent = input1.value 
     }
+})
+
+
+ci.addEventListener("click", function(){
+
+    center.style.display = "none"
+    cifrada.style.display = "block"
+})
+
+de.addEventListener("click", function(){
+
+    center.style.display = "none"
+    descifrada.style.display = "block"
 })
 
 

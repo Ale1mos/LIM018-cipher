@@ -4,6 +4,7 @@ const cipher = {
 
 
 /*var string= 
+var offset=
 var r ={
   color: "blue"
 

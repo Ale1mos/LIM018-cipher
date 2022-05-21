@@ -7,36 +7,45 @@
   </head>
   <body class="contenedor">
   <div id="root">
-    <!--<div id="root">-->
-      <div id="w">
-        <h1>Bienvenido al Cifrado Cesar</h1><br><br>
-        <input type="text" id="input1" placeholder="Ingresa tu usuario" required=""><br><br>
-        <input type="text" id="input2" placeholder="Ingresa tu contraseña" required="">
-        <img id="submit" src="../images/flecha.png" alt="Es un botón de enviar">
-          <div>
-            <img id="banner" src="../images/img.png" alt="">
-          </div>
+      <!--<div id="root">-->
+        <div id="w">
+          <h1 id="title1">Bienvenido al Cifrado Cesar</h1><br><br>
+          <input type="text" id="input1" placeholder="Ingresa tu usuario" required=""><br><br>
+          <input type="text" id="input2" placeholder="Ingresa tu contraseña" required="">
+          <img id="submit" src="../images/flecha.png" alt="Es un botón de enviar">
+            <div>
+              <img id="banner" src="../images/img.png" alt="">
+            </div>
+        </div>
+      <!--</div>-->
+      
+      
+      <div id="center" >
+        <h1 id="title2">Bienvenido,<span id="user"></span></h1>
+        <div id="letter">
+          <label for="message">Ingresa tu mensaje:</label>
+          <input type="text" id="message" required="">
+        </div>
+        <div id="number">
+          <label for="number">Número de desplazamiento:</label>
+          <input type="text" id="number" required="">
+        </div>
+        <div id="a">
+          <input type="submit" id="ci" value="CIFRAR">
+        </div>
+        <div id="b">
+          <input type="submit" id="de" value="DESCIFRAR">
+        </div>
       </div>
-    <!--</div>-->
+        
+
+      <div>
+        <p id="cifrada"></p>
+      </div>
+      <div>
+        <p id="descifrada"></p>
+      </div>
     
-    
-    <div id="center" >
-      <h1>Bienvenido,<span id="user"></span></h1>
-      <div>
-        <label for="message">Ingresa tu mensaje:</label>
-        <input type="text" id="message" required="">
-      </div>
-      <div>
-        <label for="number">Número de desplazamiento:</label>
-        <input type="text" id="number" required="">
-      </div>
-      <div>
-        <input type="submit" id="ci" value="CIFRAR">
-      </div>
-      <div>
-        <input type="submit" id="de" value="DESCIFRAR">
-      </div>
-    </div>
   </div>
   
     <script src="index.js" type="module"></script>
