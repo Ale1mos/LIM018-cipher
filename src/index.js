@@ -11,10 +11,11 @@ var input2 = document.getElementById("input2")
 var welcome = document.getElementById("w")
 var center = document.getElementById("center")
 var user = document.getElementById("user")
-var ci = document.getElementById("ci")
+var btnCifrar = document.getElementById("btnCifrar")
 var de = document.getElementById("de")
-var cifrada = document.getElementById("cifrada")
-var descifrada = document.getElementById("descifrada")
+//var encode = document.getElementById("cifrada")
+var decode = document.getElementById("descifrada")
+var come = document.getElementById("come")
 
 
 center.style.display = "none"
@@ -23,29 +24,54 @@ submit.addEventListener("click", function(){
     if(input1.value===""){
         alert("Ingresa tu usuario")
     }
-    else 
-    if(input2.value===""){
+    else if(input2.value===""){
         alert("Ingresa tu contraseña")    
     }
     else{
         welcome.style.display = "none"
+        come.style.display = "none"
         center.style.display = "block"
         user.textContent = input1.value 
     }
 })
 
 
-ci.addEventListener("click", function(){
 
-    center.style.display = "none"
-    cifrada.style.display = "block"
+
+
+btnCifrar.addEventListener("click", function(){
+    /*center.style.display = "none"
+    encode.style.display = "block"*/
+    var offset = document.getElementById("offset").value;
+    console.log(offset);
+    var string = document.getElementById("string").value;
+    console.log(string);
+
+    cipher.encode(offset, string);
+
 })
 
 de.addEventListener("click", function(){
 
     center.style.display = "none"
-    descifrada.style.display = "block"
+    decode.style.display = "block"
 })
+/*cipher.encode(offset, string){
+    return 
+}*/
 
+
+
+/*var string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"*/
+/*console.log(5)
+console.log(string)*/
+//string.charCodeAt()
+
+//var offset = document.getElementById("number").value;
+/*var offset = 3;
+var string = "CAJA";
+
+cipher.encode(offset, string);*/
+    
 
 
