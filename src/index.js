@@ -12,10 +12,11 @@ var welcome = document.getElementById("w")
 var center = document.getElementById("center")
 var user = document.getElementById("user")
 var btnCifrar = document.getElementById("btnCifrar")
-var de = document.getElementById("de")
-//var encode = document.getElementById("cifrada")
-var decode = document.getElementById("descifrada")
+var btnDescifrar = document.getElementById("btnDescifrar")
+var cifrada = document.getElementById("cifrada")
+//var decode = document.getElementById("descifrada")
 var come = document.getElementById("come")
+var answer = document.getElementById("answer")
 
 
 center.style.display = "none"
@@ -36,9 +37,6 @@ submit.addEventListener("click", function(){
 })
 
 
-
-
-
 btnCifrar.addEventListener("click", function(){
     /*center.style.display = "none"
     encode.style.display = "block"*/
@@ -49,18 +47,32 @@ btnCifrar.addEventListener("click", function(){
 
     cipher.encode(offset, string);
 
+    //cifrada.textContent = unir.value
+    center.style.display = "none"
+    answer.style.display = "block"
+    
+
+
+
 })
 
-de.addEventListener("click", function(){
+btnDescifrar.addEventListener("click", function(){
 
-    center.style.display = "none"
-    decode.style.display = "block"
+    /*center.style.display = "none"
+    decode.style.display = "block"*/
+    var offset = document.getElementById("offset").value;
+    console.log(offset);
+    var string = document.getElementById("string").value;
+    console.log(string);
+
+    cipher.decode(offset, string);
+
+
+
 })
 /*cipher.encode(offset, string){
     return 
 }*/
-
-
 
 /*var string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"*/
 /*console.log(5)
@@ -72,6 +84,5 @@ console.log(string)*/
 var string = "CAJA";
 
 cipher.encode(offset, string);*/
-    
 
 
