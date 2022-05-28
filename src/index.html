@@ -5,56 +5,61 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="contenedor">
+  <body>
   <div id="root">
       <!--<div id="root">-->
-        <div id="w">
-          <h1 id="title1">Bienvenido al Cifrado Cesar</h1><br><br>
-          <input type="text" id="input1" placeholder="Ingresa tu usuario" required=""><br><br>
-          <input type="text" id="input2" placeholder="Ingresa tu contraseña" required="">
-          <img id="submit" src="../images/enviar.jpg" alt="Es un botón de enviar">
+        <!-- <section class="containera"> -->
+          <div id="w">
             <div>
               <img id="banner" src="../images/img.png" alt="">
             </div>
-        </div>
+            <h1 id="title1">Gracia Internacional</h1><br><br>
+            <input type="text" id="input1" placeholder="Ingresa tu usuario" required=""><br><br>
+            <input type="text" id="input2" placeholder="Ingresa tu contraseña" required="">
+            <img id="submit" src="../images/enviar.jpg" alt="Es un botón de enviar">    
+          </div>
+        <!-- </section> -->
       <!--</div>-->
       
-      
-      <div id="center" >
-        <h1 id="title2">Bienvenido,<span id="user"></span></h1>
-        <div id="letter">
-          <label for="message">Ingresa tu mensaje:</label>
-          <input type="text" id="string" required="">
+      <!-- <section class="containerb"> -->
+        <div id="center" >
+          <div id="title2">
+          <h1>Hola,<span id="user"></span></h1>
+          </div>
+          <div class="info">
+            <div id="letter">
+              <label for="message">Ingresa tu mensaje:</label>
+              <input type="text" id="string" required="">
+            </div>
+            <div id="number">
+              <label for="number">Número de desplazamiento:</label>
+              <input type="text" id="offset" required="" >
+            </div>
+          </div>
+          <div id="botones">
+            <div id="a">
+              <input type="submit" id="btnCifrar" value="CIFRAR">
+            </div>
+            <div id="b">
+              <input type="submit" id="btnDescifrar" value="DESCIFRAR">
+            </div>
+          </div>
         </div>
-        <div id="number">
-          <label for="number">Número de desplazamiento:</label>
-          <input type="text" id="offset" required="" >
-        </div>
-        <div id="a">
-          <input type="submit" id="btnCifrar" value="CIFRAR">
-        </div>
-        <div id="b">
-          <input type="submit" id="btnDescifrar" value="DESCIFRAR">
-        </div>
-      </div>
+      <!-- </section> -->
 
+      
       <div id="answer">
         <p id="cifrada"></p>
+        <p id="descifrada"></p>
+        <div>
+          <img src="../images/frase1.jpg" alt="Esta es una imagen" id="imgfra">
+        </div>
       </div>
 
-
-      <!-- <div>
-        <p class="cifrada"></p>
-      </div>
-      <div>
-        <p class="descifrada"></p>
-      </div> -->
+      
 
       <input type="submit" id="come" value="Aceptar">
 
-
-
-    
   </div>
   
     <script src="index.js" type="module"></script>

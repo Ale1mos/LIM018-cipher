@@ -14,12 +14,15 @@ var user = document.getElementById("user")
 var btnCifrar = document.getElementById("btnCifrar")
 var btnDescifrar = document.getElementById("btnDescifrar")
 var cifrada = document.getElementById("cifrada")
-//var decode = document.getElementById("descifrada")
+var descifrada = document.getElementById("descifrada")
 var come = document.getElementById("come")
 var answer = document.getElementById("answer")
+//var unir = document.getElementById("unir")
 
 
 center.style.display = "none"
+answer.style.display = "none"
+come.style.display = "none"
 
 submit.addEventListener("click", function(){
     if(input1.value===""){
@@ -30,7 +33,7 @@ submit.addEventListener("click", function(){
     }
     else{
         welcome.style.display = "none"
-        come.style.display = "none"
+        // come.style.display = "none"
         center.style.display = "block"
         user.textContent = input1.value 
     }
@@ -41,20 +44,24 @@ btnCifrar.addEventListener("click", function(){
     /*center.style.display = "none"
     encode.style.display = "block"*/
     var offset = document.getElementById("offset").value;
-    console.log(offset);
+    //console.log(offset);
     var string = document.getElementById("string").value;
-    console.log(string);
+    //console.log(string);
 
-    cipher.encode(offset, string);
+    //cipher.encode(offset, string);
 
-    //cifrada.textContent = unir.value
+    //var ci = unir
+    let e = cipher.encode(offset, string);
+    console.log(e)
+    cifrada.innerHTML = `${e}`;
+    
     center.style.display = "none"
     answer.style.display = "block"
+    come.style.display = "block"
     
-
-
-
 })
+
+
 
 btnDescifrar.addEventListener("click", function(){
 
@@ -65,10 +72,15 @@ btnDescifrar.addEventListener("click", function(){
     var string = document.getElementById("string").value;
     console.log(string);
 
-    cipher.decode(offset, string);
+    //cipher.decode(offset, string);
 
+    let u = cipher.decode(offset, string);
+    console.log(u)
+    descifrada.innerHTML = `${u}`;
 
-
+    center.style.display = "none"
+    answer.style.display = "block"
+    come.style.display = "block"
 })
 /*cipher.encode(offset, string){
     return 
@@ -84,5 +96,6 @@ console.log(string)*/
 var string = "CAJA";
 
 cipher.encode(offset, string);*/
+
 
 

@@ -1,33 +1,28 @@
-/** {
+* {
     margin: 0;
     padding: 0;
-}*/
+}
 body {
     background: white;
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     align-items: center
 }
-#w{
-    /*position: absolute;
-    border: solid blue;
-    width: 256px;
-    height: 64px;
-    left: 536px;
-    top: 279px;
-    align-items: center;*/
+#w{ 
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
-    height: 80vh;
-    width: 100vw;
-    background-image: "../images/img.png";
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: solid green;
     
+    height: auto;
+    width: auto;
+    
+    /* background-size: cover; */
+    border: solid red;
 
+    
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    
 }
 #submit{
     display: flex;
@@ -39,11 +34,14 @@ body {
 }
 #banner{
     /*position: absolute;*/
-    width: 1440px;
-    height: 551px;
+    /* width: 2030px;
+    height: 578px; */
+    width: 1345px;
+    height: 400px;
     left: 0px;
-    top: 473px;
+    top: 0px;
 }
+
 /*#root{
     width: 960;
     margin: auto;
@@ -58,39 +56,48 @@ body {
     display:flex;
     justify-content:center;
 }*/
-#center{
-    position: absolute;
+/*#center{
+     position: absolute;
     width: 344px;
     height: 84px;
     left: 200px;
     top: 170px;
-    /*display: flex;*/
+    
     flex-direction: column;
-    /*align-items: center;*/
+    
     color: black;
-    /*height: 80vh;
-    width: 100vw;*/
+    
     height: 40px;
     width: 40vw;
-    padding-left: 50px;
-}
+    padding-left: 50px; 
+    
+}*/
 #title2{
-    border: solid blue;
-    margin-top: 5px;
+    border: solid rgb(0, 255, 255);
+    margin-top: 120px;
     margin-bottom: 120px;
-    /*align-items: center;*/
-    margin-left: 300px;
+    
 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border:solid green;
 }
-#letter{
+
+#string{
+    border: solid blue;
+    margin-bottom: 70px;
+    margin-left: 62px;
+    
+}
+#offset{
     border: solid blue;
     margin-bottom: 40px;
 }
-#number{
-    border: solid blue;
-    margin-bottom: 40px;
-}
-#a{
+/*.container1 .info{
+    margin-left: 10px;
+}*/
+/* #a{
     display: inline-block;
     margin: 50px;
     border: solid blue;
@@ -105,15 +112,63 @@ body {
     margin-left: 20px;
     
 
+} */
+.info{
+    margin: 40px;
 }
-#ci{
+#botones{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    border:solid green;
+}
+#btnCifrar{
     cursor: pointer;
+    margin: 70px;
     
 }
-#de{
+#btnDescifrar{
     cursor: pointer;
+    margin: 70px;
     
 }
-#volver{
+/* #volver{
 
+} */
+#imgfra{
+    margin: 20px;
+    width: 520px;
+    height: 740px;
+    /* display: flex; */
+    padding: 0px;
+    /* left: 964px; */
+    top: 126px;
+    border-radius: 0px;
+    float: right;
+    border: solid blue;
+
+}
+#answer{
+    border: solid blue;
+    align-items: center;
+}
+.containerb{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    border:solid green;
+    
+}
+.containera{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    border:solid black;
 }
