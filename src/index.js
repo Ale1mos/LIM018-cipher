@@ -94,8 +94,6 @@ btnCifrar.addEventListener("click", function(){
     
 })
 
-
-
 btnDescifrar.addEventListener("click", function(){
 
     /*center.style.display = "none"
@@ -131,17 +129,16 @@ var string = "CAJA";
 
 cipher.encode(offset, string);*/
 
-
-
-
 come.addEventListener("click", function(){
     answer.style.display = "none"
     // imgfra.style.display = "none"
     come.style.display = "none"
-    welcome.style.display = "block"
+    welcome.style.display = "flex"
 
     input1.value = "";
     input2.value = "";
+    string.value = "";
+    offset.value = "";
 })
 
 
