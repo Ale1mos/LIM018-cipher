@@ -120,6 +120,7 @@ body {
     border:solid black;
 }
 .resultado{
+    background: red;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
