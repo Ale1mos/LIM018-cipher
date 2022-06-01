@@ -18,13 +18,13 @@ var cifrada = document.getElementById("cifrada")
 var descifrada = document.getElementById("descifrada")
 var come = document.getElementById("come")
 var answer = document.getElementById("answer")
-var imgfra = document.getElementById("imgfra")
+// var imgfra = document.getElementById("imgfra")
 //var unir = document.getElementById("unir")
 
 
 center.style.display = "none"
 answer.style.display = "none"
-imgfra.style.display = "none"
+// imgfra.style.display = "none"
 come.style.display = "none"
 
 submit.addEventListener("click", function(){
@@ -87,7 +87,7 @@ btnCifrar.addEventListener("click", function(){
     else{
     center.style.display = "none"
     answer.style.display = "block"
-    imgfra.style.display = "block"
+    // imgfra.style.display = "block"
     come.style.display = "block"
     }
 
@@ -113,7 +113,7 @@ btnDescifrar.addEventListener("click", function(){
 
     center.style.display = "none"
     answer.style.display = "block"
-    imgfra.style.display = "block"
+    // imgfra.style.display = "block"
     come.style.display = "block"
 })
 /*cipher.encode(offset, string){
@@ -136,7 +136,7 @@ cipher.encode(offset, string);*/
 
 come.addEventListener("click", function(){
     answer.style.display = "none"
-    imgfra.style.display = "none"
+    // imgfra.style.display = "none"
     come.style.display = "none"
     welcome.style.display = "block"
 
