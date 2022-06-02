@@ -87,7 +87,6 @@ btnCifrar.addEventListener("click", function(){
     else{
     center.style.display = "none"
     answer.style.display = "block"
-    // imgfra.style.display = "block"
     come.style.display = "block"
     }
 
@@ -111,7 +110,6 @@ btnDescifrar.addEventListener("click", function(){
 
     center.style.display = "none"
     answer.style.display = "block"
-    // imgfra.style.display = "block"
     come.style.display = "block"
 })
 /*cipher.encode(offset, string){
