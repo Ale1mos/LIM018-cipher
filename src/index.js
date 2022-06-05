@@ -20,12 +20,15 @@ var come = document.getElementById("come")
 var answer = document.getElementById("answer")
 // var imgfra = document.getElementById("imgfra")
 //var unir = document.getElementById("unir")
+var offset = parseInt(document.getElementById("offset").value);
+var string = document.getElementById("string").value;
 
-
+   
 center.style.display = "none"
 answer.style.display = "none"
 // imgfra.style.display = "none"
 come.style.display = "none"
+
 
 submit.addEventListener("click", function(){
     if(input1.value===""){
@@ -58,38 +61,10 @@ btnCifrar.addEventListener("click", function(){
     //console.log(e)
     cifrada.innerHTML = `${e}`;
 
-    var n = null
     
-    if(string===""){
-    alert("Ingresa tu mensaje")
-    }
-    else if(offset===""){
-    alert("Ingresa tu dígito")
-    }
-    else if(string==="0"){
-    alert("Ingresa tu mensaje")
-    }
-    else if(offset==="0"){
-    alert("Ingresa un dígito válido")
-    }
-    else if(string=== n){
-    alert("Ingresa tu mensaje")
-    }
-    else if(offset===n){
-    alert("Ingresa un dígito válido")
-    }
-    else if(string==="[]"){
-    alert("Ingresa tu mensaje")
-    }
-    else if(offset==="[]"){
-    alert("Ingresa un dígito")
-    }
-    else{
     center.style.display = "none"
-    answer.style.display = "block"
     come.style.display = "block"
-    }
-
+    answer.style.display = "block"
     
 })
 
@@ -110,35 +85,26 @@ btnDescifrar.addEventListener("click", function(){
     descifrada.innerHTML = `${u}`;
 
     center.style.display = "none"
-    answer.style.display = "block"
     come.style.display = "block"
+    answer.style.display = "block"
+    
+    
 })
-/*cipher.encode(offset, string){
-    return 
-}*/
-
-/*var string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"*/
-/*console.log(5)
-console.log(string)*/
-//string.charCodeAt()
-
-//var offset = document.getElementById("number").value;
-/*var offset = 3;
-var string = "CAJA";
-
-cipher.encode(offset, string);*/
 
 come.addEventListener("click", function(){
     answer.style.display = "none"
-    // imgfra.style.display = "none"
     come.style.display = "none"
     welcome.style.display = "flex"
 
     input1.value = "";
     input2.value = "";
-    // string.value = "";
-    // offset.value = "";
+    
+    cifrada.textContent = "";
+    descifrada.textContent = "";
+    
+
 })
+
 
 
 
