@@ -46,7 +46,7 @@ submit.addEventListener("click", function(){
 btnCifrar.addEventListener("click", function(){
     /*center.style.display = "none"
     encode.style.display = "block"*/
-    var offset = document.getElementById("offset").value;
+    var offset = parseInt(document.getElementById("offset").value);
     //console.log(offset);
     var string = document.getElementById("string").value;
     //console.log(string);
@@ -97,7 +97,8 @@ btnDescifrar.addEventListener("click", function(){
 
     /*center.style.display = "none"
     decode.style.display = "block"*/
-    var offset = document.getElementById("offset").value;
+    var offset = parseInt(document.getElementById("offset").value);
+    // var offset = document.getElementById("offset").value;
     //console.log(offset);
     var string = document.getElementById("string").value;
     console.log(string);
@@ -135,8 +136,8 @@ come.addEventListener("click", function(){
 
     input1.value = "";
     input2.value = "";
-    string.value = "";
-    offset.value = "";
+    // string.value = "";
+    // offset.value = "";
 })
 
 

@@ -1,6 +1,12 @@
 const cipher = {
   encode(offset,string){
-    offset = parseInt(offset);
+    if(typeof offset != "number"){
+      throw TypeError("No es numero")
+    }
+    if(typeof string != "string"){
+      throw TypeError("No es letra")
+    }
+    
     
     var unir = "";
     
@@ -15,7 +21,13 @@ const cipher = {
   },
 
     decode(offset,string){
-    offset = parseInt(offset);
+      if(typeof offset != "number"){
+        throw TypeError("No es numero")
+      }
+      if(typeof string != "string"){
+        throw TypeError("No es letra")
+      }
+    // offset = parseInt(offset);
    
     var unir = "";
     for(var i = 0;i<string.length;i++){
