@@ -20,8 +20,8 @@ var come = document.getElementById("come")
 var answer = document.getElementById("answer")
 // var imgfra = document.getElementById("imgfra")
 //var unir = document.getElementById("unir")
-var offset = parseInt(document.getElementById("offset").value);
-var string = document.getElementById("string").value;
+var offset = document.getElementById("offset")
+var string = document.getElementById("string")
 
    
 center.style.display = "none"
@@ -42,6 +42,8 @@ submit.addEventListener("click", function(){
         // come.style.display = "none"
         center.style.display = "block"
         user.textContent = input1.value 
+        offset.value = "";
+        string.value = "";
     }
 })
 
