@@ -1,6 +1,6 @@
 ## Introducción
 
-Comencé imaginando una situación real, reelevante y de impacto social en donde el Cifrado Cesar pueda dar un gran aporte en el contexto, de esta forma decidí darle a la página un uso de enfoque humanitario, una página en donde cada empleado perteneciente a Gracia Universal pueda cifrar y descifrar un mensaje o texto de manera segura secreta y clasificada, cuidando la integridad de la delicada información manejada en la organización, ya sea entres los mismos integrantes de esta o con otras organizaciones humanitarias.
+Comencé imaginando una situación real, relevante y de impacto social en donde el Cifrado Cesar pueda dar un gran aporte en el contexto, de esta forma decidí darle a la página un uso de enfoque humanitario, una página en donde cada empleado perteneciente a Gracia Universal pueda cifrar y descifrar un mensaje o texto de manera segura secreta y clasificada, cuidando la integridad de la delicada información manejada en la organización, ya sea entres los mismos integrantes de esta o con otras organizaciones humanitarias.
 
 ## Producto final a nivel de experiencia 
 
@@ -35,7 +35,7 @@ Contar con un espacio amigable e intuitivo, para que el usuario se demore lo men
 
 ## Para acceder a la página
 
-Para acceder a la página tan solo debes de colocar en el navegador la siguiente dirección url: de esta forma el usuario tendrá la página a su disposición y lista para usarse. La funcionalidad incorporada en esta página está diseñada para automatizar el proceso de cifrar y descifrar mediante el método del Cifrado Cesar de manera ágil y eficaz. Con respecto al diseño final de la web, este se fue armando de manera gradual con el avance del proyecto, siempre basándome en la estructura que diseñe al inicio y dándole un estilo amigable y minimalista.
+Solo colocando en el navegador la siguiente dirección url: accederás a la página web, de esta forma el usuario tendrá la página a su disposición y lista para usarse. La funcionalidad incorporada en esta página está diseñada para automatizar el proceso de cifrar y descifrar mediante el método del Cifrado Cesar de manera ágil y eficaz. Con respecto al diseño final de la web, este se fue armando de manera gradual con el avance del proyecto, siempre basándome en la estructura que diseñe al inicio y dándole un estilo amigable y minimalista.
 
 
 # Cifrado César
