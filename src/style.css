@@ -23,6 +23,7 @@ body {
     
 }
 input{
+    font-family: 'Joan', serif;
     width: 140px;
     height: 25px;
 }
@@ -44,6 +45,9 @@ input{
     background-color: aqua;
     border-radius: 7px;
 }
+.btnClass:hover{
+    background: coral;
+}
 #banner{
     width: 1345px;
     height: 360px;
@@ -53,6 +57,7 @@ input{
 
 #center{
     background-image:"..images/fondo.jpg";
+    
 }
 
 #title2{ 
