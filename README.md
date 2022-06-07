@@ -1,3 +1,36 @@
+Comencé imaginando una situación real, reelevante y de impacto social en donde el Cifrado Cesar pueda dar un gran aporte en el contexto, de esta forma decidí darle a la página un uso de enfoque humanitario, una página en donde cada empleado perteneciente a Gracia Universal pueda cifrar y descifrar un mensaje o texto de manera segura secreta y clasificada, cuidando la integridad de la delicada información manejada en la organización, ya sea entres los mismos integrantes de esta o con otras organizaciones humanitarias.
+
+Para definir el producto final a nivel de experiencia realicé una planificación de los objetivos en pequeñas unidades, en base a lo que necesitaba el usuario, así fui desarrollando cada punto bajo la premisa de las interrogantes: qué?, para qué?; de esta forma fui armando una experiencia de usuario, completa e intuitiva, donde el usuario se lleve una experiencia agradable, desde el inicio hasta el final de la interacción en la página.
+
+Para definir el producto final a nivel de interfaz me basé en mi planificación de los objetivos en pequeñas unidades ya creada, en base a lo que necesitaba el usuario de mi página web, de esta forma comencé a desarrollar la interfaz, dotada de funcionalidad requerida y agradable a la vista, además de esto quería que se entienda fácilmente, para que el usuario fluya en esta, así que le di tres principales características intuitiva, amigable y minimalista, donde el usuario podría desplegarse de manera fluida por toda la página y siempre terminar logrando su objetivo (cifrar y/o descifrar) de manera efectiva y en un tiempo óptimo.
+
+
+
+
+* Principales usuarios:
+
+Aquí encontramos a los trabajadores de una organización de derechos humanos, donde su misión principal es preservar la vida en una zona de conflicto, de esta forma gracias al Cifrado Cesar cada empleado logra comunicar mensajes o textos de vital importancia a otras organizaciones o entre ellos mismos para así organizarse y poner freno a la violencia.
+
+* Objetivos de los usuarios:
+
+Comunicarse de manera efectiva, sin riesgos de cifrar y/o descifrar de manera errada. 
+Entablar una comunicación secreta y clasificada, para así cuidar la integridad de la información vertida en el mensaje.
+Cifrar de manera rápida y fácil para poder enviar su mensaje.
+Descifrar de manera sencilla y ágil el mensaje recepcionado.
+Tener un espacio seguro para cifrar y descifrar los mensajes que quieren o deben enviar ya que cada empleado tiene una cuenta privada en donde logearse.
+Contar con un espacio amigable e intuitivo, para que el usuario se demore lo menos posible en lograr su objetivo de cifrar y descifrar.
+
+
+* Resolviendo problemas:
+
+Debido a que la página tiene un diseño amigable y sencillo, logra que el usuario optimice su tiempo invertido en la gestión (cifrado/descifrado) que desea realizar, de esta manera el tiempo ahorrado lo podrá utilizar en otras gestiones importantes.
+Contar con un sitio web de garantía y confiable, donde poder encriptar y desencriptar un mensaje o texto sin riesgos.
+Facilitar la comunicación clasificada entre organizaciones humanitarias con un objetivo en común.
+Automatizar el método del Cifrado Cesar para ponerlo a servicio del trabajador y de una causa en común, la resolución del conflicto en las zonas afectadas.
+
+Para acceder a la página tan solo debes de colocar en el navegador la siguiente dirección url: de esta forma el usuario tendrá la página a tu disposición y lista para usarse. La funcionalidad incorporada en esta página está diseñada para automatizar el proceso de cifrar y descifrar mediante el método del Cifrado Cesar de manera ágil y eficaz. Con respecto al diseño final de la web, este se fue armando de manera gradual, con el avance del proyecto, siempre basándome en la estructura que diseñe al inicio y dándole un estilo amigable y minimalista.
+
+
 # Cifrado César
 
 ## Índice
