@@ -18,15 +18,12 @@ var cifrada = document.getElementById("cifrada")
 var descifrada = document.getElementById("descifrada")
 var come = document.getElementById("come")
 var answer = document.getElementById("answer")
-// var imgfra = document.getElementById("imgfra")
-//var unir = document.getElementById("unir")
 var offset = document.getElementById("offset")
 var string = document.getElementById("string")
 
    
 center.style.display = "none"
 answer.style.display = "none"
-// imgfra.style.display = "none"
 come.style.display = "none"
 
 
@@ -39,7 +36,6 @@ submit.addEventListener("click", function(){
     }
     else{
         welcome.style.display = "none"
-        // come.style.display = "none"
         center.style.display = "block"
         user.textContent = input1.value 
         offset.value = "";
@@ -49,8 +45,7 @@ submit.addEventListener("click", function(){
 
 
 btnCifrar.addEventListener("click", function(){
-    /*center.style.display = "none"
-    encode.style.display = "block"*/
+
     var offset = parseInt(document.getElementById("offset").value);
     //console.log(offset);
     var string = document.getElementById("string").value;
@@ -58,12 +53,11 @@ btnCifrar.addEventListener("click", function(){
 
     //cipher.encode(offset, string);
 
-    //var ci = unir
+    
     let e = cipher.encode(offset, string);
     //console.log(e)
     cifrada.innerHTML = `${e}`;
 
-    
     center.style.display = "none"
     come.style.display = "block"
     answer.style.display = "block"
@@ -72,8 +66,6 @@ btnCifrar.addEventListener("click", function(){
 
 btnDescifrar.addEventListener("click", function(){
 
-    /*center.style.display = "none"
-    decode.style.display = "block"*/
     var offset = parseInt(document.getElementById("offset").value);
     // var offset = document.getElementById("offset").value;
     //console.log(offset);
@@ -89,7 +81,6 @@ btnDescifrar.addEventListener("click", function(){
     center.style.display = "none"
     come.style.display = "block"
     answer.style.display = "block"
-    
     
 })
 

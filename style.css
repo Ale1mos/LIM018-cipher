@@ -4,6 +4,7 @@
 }
 body {
     /* background: white; */
+    background-image: url("./images/fondo.jpg");
     background-size: cover;
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -21,6 +22,11 @@ body {
     display: -ms-flexbox;
     
 }
+input{
+    font-family: 'Joan', serif;
+    width: 140px;
+    height: 25px;
+}
 #title1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(17, 17, 165);
@@ -33,14 +39,25 @@ body {
     cursor: pointer;
     padding: 30px;
 }
+.btnClass{
+    width: 90px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+.btnClass:hover{
+    background: coral;
+}
 #banner{
     width: 1345px;
     height: 360px;
     left: 0px;
     top: 0px;
 }
+
 #center{
     background-image:"..images/fondo.jpg";
+    
 }
 
 #title2{ 
@@ -79,10 +96,8 @@ body {
 #botones{
     display: flex;
     justify-content: space-around;
-    align-content: center;
-    /* border:solid green; */
-    margin-top: 120px;
-    
+    /* align-content: center; */
+    margin-top: 120px; 
 }
 #btnCifrar{
     cursor: pointer;
